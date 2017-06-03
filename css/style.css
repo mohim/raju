@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#whole_body{
+   
+}
+.col-3{
+  float:left;
+  width:18%;
+  margin-right:2%;
+  
+}
+.president_image img{
+    width:150px!important;
+}
+.team_item{
+  border:1px solid red;
+  box-sizing:border-box;
+}
+.team_image img{
+  width:100%;
+    height:130px;
+   border-bottom:1px solid red;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+}
+.team_image img:hover{
+  width:100%;
+   border-bottom:1px solid red;
+  box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+  
+  
+}
+.caption{
+  text-align:center;
+ color:#F05421;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+.caption p{
+   font-weight:bold;
+  letter-spacing:2px;
+}
+.team_member{
+  display:inline-block;
+  margin-top:10px;
+  
+    
+}
+.underline1 {
+  height: 2px;
+  width: 200px;
+  background-color:#F05421;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.underline2 {
+  height: 7px;
+  width: 50px;
+  background-color: #F05421;
+  margin: auto;
+  margin-top: -5px;
+}
+.headeing h3{
+  text-align:center;
+  color:#F05421;
+  font-weight:bold;
+   font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing:5px;
+}
+.about-social-icon {
+  padding: 15px 0px;
+}
+
+.about-social {
+  padding: 0px;
+  display: inline-flex;
+  list-style: none;
+  margin: 0px;
+}
+
+.about-social li:first-child {
+  margin-left: 0px;
+}
+
+.about-social li {
+  margin: 0px 0px;
+}
+
+.about-social li a {
+  color: #FFF;
+  background-color:  #44B272;
+  float: left;
+  line-height: 36px;
+  font-size: 16px;
+  transition: .4s;
+  -o-transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  text-align: center;
+  margin-right: 6px;
+  height: 39px;
+  width: 39px;
+  border-radius: 150px;
+  border: 1px solid  #44B272;
+}
+
+.about-social li a:hover {
+  color: #f05421;
+  background-color: transparent;
+  border: 1px solid #f05421;
+}
+.pre_title{
+  color:#44B272;
+  font-weight:bold;
+   font-family: 'Roboto Condensed', sans-serif;
+  text-align:center;
+}
+.pre_title p{
+  letter-spacing:6px;
+}
+.pre_announcement p{
+  color:#44B272;
+  text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight:bold;
+  letter-spacing:4px;
+   
+  font-size:20px;
+  
+}
