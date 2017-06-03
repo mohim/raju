@@ -4,7 +4,8 @@
   box-sizing:border-box;
 }
 #whole_body{
-   
+   background-image:url("../img/bg.png");
+    background-size: cover;
 }
 .col-3{
   float:left;
